@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compilados/bootstrap.css"/>
+    <link rel="stylesheet" href="_estilo/_css/estilo.css"/>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <title>Biomas Brasileiros</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-gradient-primary">
+        
+        <!-- container conteudo na margem que eu quero dos conteudos dentro do navbar --->
+        <div class="container">
+            
+            <!-- nome vetor no canto direito do site --->
+            <a class="navbar-brand h1 mb-0" href="#">Biomas Brasileiros</a>
+            
+            <!-- botao pesquisa --->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- conteudo navbar -->
+            <div class="collapse navbar-collapse" id="navbarSite">
+                
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Depoimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                </ul>
+                <!-- navbar alinhado a esquerda dropdown --->
+                <ul class="navbar-nav ml-auto">
+                    <!-- dropdown, item com quebra para baixo, submenus -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggler" href="#" data-toggle="dropdown" id="navDrop">
+                            Social
+                        </a>
+                        <!-- dropdown sub-itens -->
+                        <div class="dropdown-menu mb-2">
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Instargram</a>
+                            <a class="dropdown-item" href="#">Linkedin</a>
+                        </div>
+                    </li>
+                </ul>
+                
+                <!-- formulario de 1 linha --->
+                <form class="form-inline">
+                    <input class="form-control mt-1 ml-2 mr-3" type="search" placeholder="Buscar...">
+                    <button class="btn btn-dark mt-1 ml-2" type="submit">Ok</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- container carosel --->
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+			<!-- o tipo do container carossel-->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="_imagem/projeto-1.png" class="d-block w-100" alt="...">
+
+					<!-- titulo do carousel 1--->
+					<div class="carousel-caption d-none d-md-block text-dark">                    
+						<h1>Biomas Brasileiros</h1>
+						<p class="lead">Lugar paradisíaco e incrível do mundo</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="_imagem/projeto-2.png" class="d-block w-100" alt="...">
+
+					<!-- titulo do carousel 2--->   
+					<div class="carousel-caption d-none d-md-block text-dark">
+						<h1>Biomas Brasileiros</h1>
+						<p class="lead">Lugar paradisíaco e incrível do mundo</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="_imagem/projeto-3.jpg" class="d-block w-100" alt="...">
+
+					<!-- titulo do carousel 3--->
+					<div class="carousel-caption d-none d-md-block text-dark">
+						<h1>Biomas Brasileiros</h1>
+						<p class="lead">Lugar paradisíaco e incrível do mundo</p>
+					</div>
+				</div>
+
+				<div class="carousel-item">
+					<img src="_imagem/projeto-4.jpg" class="d-block w-100" alt="...">
+
+					<!-- titulo do carousel 4--->
+					<div class="carousel-caption d-none d-md-block text-dark">
+						<h1>Biomas Brasileiros</h1>
+						<p class="lead">Lugar paradisíaco e incrível do mundo</p>
+					</div>
+				</div>
+
+				<!--indicadores do carousel -->
+				<ol class="carousel-indicators">
+
+					<li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselSite" data-slide-to="1"></li>
+					<li data-target="#carouselSite" data-slide="2"></li>
+					<li data-target="#carouselSite" data-slide="3"></li>
+				</ol>
+			</div>
+			<!-- controles do carousel prev, next --->
+			<a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="sr-only">Anterior</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="sr-only">Avançar</span>
+			</a>
+    </div>
+    <!--  Aqui entra o titulo --->
+    <div class="container-fluid">
+       <div class="col-12 col-md-12 col-sm-6 col-xs-4">
+			<h1 class="display-4 text-center my-5"><i class="fas fa-grin-alt text-primary mr-2"></i>Seja bem vindo</h1>
+			<p class="lead text-center">Lugar paradisíaco e incrível do mundo, aspectos de fauna, flora e clima da Floresta Atlântica, sinta esta
+			sensacão aqui neste site.</p>
+	  </div>
+    </div>   
+    <!-- Aqui entra os cards --->
+    <!-- card 1 --->
+    <div class="row justify-conten-center ml-2 mr-2">
+        <div class="col-sm-6 col-xs-4">
+            <div class="card  mt-1 mb-1">
+            <img class="card-img-top" src="_imagem/card-1.png"/>
+                    <div class="card-body">
+                    <h4 class="card-title">Mata Atlântica</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Um bioma de floresta tropical que abrange a costa leste, sudeste e sul do Brasil leste do Paraguai e a província de Misiones, na Argentina.</h6>
+                    <p class="card-text">Seus processos ecológicos evoluíram a partir do Eoceno, quando os continentes já estavam relativamente dispostos como estão hoje. A região é ocupada por seres humanos há mais de 10 000 anos. A partir da colonização europeia, e principalmente, no século XX, a Mata Atlântica passou por intenso desmatamento, restando menos de 20% da cobertura vegetal original.</p>
+                </div>
+                <div class="card-body mt-1">
+                    <a href="#" class="card-link">Acessar</a>
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Saiba mais!</a>
+                </div> 
+                <div class="footer text-muted">
+                    <p>Atualizado 2019</p>
+                </div>               
+            </div>
+        </div>
+            <!-- card 2 --->
+            <div class="col-sm-6 col-xs-4">
+            <div class="card  mt-1 mb-1">
+            <img class="card-img-top" src="_imagem/card-2.png"/>
+                    <div class="card-body">
+                    <h4 class="card-title">Cachoeira de Emas</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Cachoeira de Emas é um distrito localizado no município de Pirassununga, Estado de São Paulo. Foi criado pela lei 5285 de 18/02/1959</h6>
+                    <p class="card-text">O início das pesquisas com peixes e o rio, em Cachoeira de Emas, deveu-se, inicialmente, ao biólogo e zoologista Rodolpho von Ihering, responsável pela instalação de uma Estação Experimental de Biologia e Pisicultura no Distrito, nos anos 30, bem como ao trabalho e à persistência do Professor Doutor Manuel Pereira de Godoy.</p>
+                </div>
+                <div class="card-body mt-5">
+                    <a href="#" class="card-link">Acessar</a>
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#siteModalEmas">Saiba mais!</a>
+                </div> 
+                <div class="footer text-muted">
+                    <p>Atualizado 2019</p>
+                </div>               
+            </div>
+        </div>
+        <!-- card 3 --->
+        <div class="col-sm-6 col-xs-4">
+            <div class="card mt-1 mb-1">
+            <img class="card-img-top" src="_imagem/card-3.png"/>
+                    <div class="card-body">
+                    <h4 class="card-title">Pôr do sol</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">Pôr do sol, ao 1945: pôr-do-sol, também chamado de sol-pôr, anoitecer, entardecer ou ocaso.</h6>
+                    <p class="card-text">E o momento em que o Sol se oculta no horizonte na direção oeste, sendo o início da noite. Pode ser considerado como um processo inverso do nascer do Sol, que é quando o sol aparece no horizonte na direção leste, iniciando o dia. Este acontecimento verifica-se todos os dias em todas as regiões compreendidas entre o Círculo Polar Ártico e o Círculo Polar Antártico.</p>
+                </div>
+                <div class="card-body mt-4">
+                    <a href="#" class="card-link">Acessar</a>
+                    <a href="#" class="card-link" data-toggle="modal" data-target="#siteModalPor">Saiba mais!</a>
+                </div> 
+                <div class="footer text-muted">
+                    <p>Atualizado 2019</p>
+                </div>               
+            </div>
+        </div>
+    </div>
+    <!-- jumbotron --->
+    <div class="jumbotron jumbotron-fluid mt-1 mb-1">
+        <div class="containeir">
+            <div class="row mt-1 mb-1">
+                <div class="col-sm-12 col-xs-4 text-center">
+                   <hr>
+                    <h1 class="display-4"><i class="fas fa-video text-primary mr-2"></i>Veja nossos videos</h1>
+                    <p class="lead">Artigos mais queridos</p>
+                    <hr>
+                </div>
+            </div>
+            <!-- menu navPills --->
+            <div class="row ml-2 mr-2 mt-1 mb-1">
+                <div class="col-sm-12 col-xs-4">
+                    <ul class="nav nav-pills justify-content-center mb-3" id="pillsNav" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active"  id="nav-pills-01" data-toggle="pill" href="#nav-item-01">Mata Atlântica</a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-02" data-toggle="pill" href="#nav-item-02">Cachoeira de Emas</a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="nav-pills-03" data-toggle="pill" href="#nav-item-03">Pôr do sol</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- nav-pills-01 --->
+                    <div class="tab-content" id="nav-pills-content">
+                        <div class="tab-pane fade show active" id="nav-item-01" role="tabpanel">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-4 mt-1 mb-1">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aea0XvwQcOY"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-4">
+                                    <p class="lead">Angelo Vieira</p>
+                                    <p>
+                                    <small class="text-muted">Published on Nov 17, 2016</small>
+                                    </p>
+                                    <p>Aspectos de fauna, flora e clima da Floresta Atlântica.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- nav-pills-02 --->
+                        <div class="tab-pane fade" id="nav-item-02" role="tabpainel">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-4 mt-1 mb-1">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KkBwPWYYNTk"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-4">
+                                    <p class="lead">vagner sansao</p>
+                                    <p>
+                                    <small class="text-muted">Published on Jul 23, 2018</small>
+                                    </p>
+                                    <p>Lugar paradisíaco e incrível,um dos lugares mais lindos do mundo, turismo em cachoeira de emas interior de são paulo ,lugar bom pra refresca e com ótimos restaurantes a beira rio.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- nav-pills-03 --->
+                        <div class="tab-pane fade" id="nav-item-03" role="tabpainel">
+                            <div class="row">
+                                <div class="col-sm-6 col-xs-4 mt-1 mb-1">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/P4G-6hQVrbM"></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-xs-4">
+                                    <p class="lead">Érica Marques</p>
+                                    <p >
+                                    <small class="text-muted">Published on Mar 4, 2011</small>
+                                    </p>
+                                    <p>Estes são videos antigos antes de migrarmos para um canal próprio</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>                                       
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!-- aqui entra um formulario --->
+    	<div class="container mt-1 mb-1">
+    		<div class="row">
+    			<div class="col-12 text-center my-4">
+    				<h1 class="diplay-4"><i class="fas fa-paper-plane text-primary mr-2"></i>Contato</h1>
+    			</div>
+    		</div>
+    		<div class="row justify-content-center mb-4">
+    			<div class="col-sm-12 col-md-10 col-lg-8">
+    				<form>
+    					<div class="form-row">
+    						<div class="form-group col-sm-6">
+    							<label for="inputNome">Digite seu Nome:</label>
+    							<input type="text" class="form-control" id="inputNome" placeholder="Nome"/>
+    						</div>
+    						<div class="form-group col-sm-6">
+    							<label for="inputSobre">Digite seu Sobrenome:</label>
+    							<input type="text" class="form-control" id="inputSobre" placeholder="Sobrenome"/>
+    						</div>
+    					</div>
+    					<div class="form-row">
+							<div class="form-group col-sm-12">
+								<label for="inputEnd">Digite seu Endereco:</label>
+								<input type="text" class="form-control" id="inputEnd" placeholder="Endereco Completo"/>
+							</div>
+    					</div>
+    					<div class="form-row">
+    						<div class="form-group col-sm-6">
+    							<label for="inputCid">Digite sua Cidade:</label>
+    							<input type="text" class="form-control" id="inputCid" placeholder="Cidade"/>
+    						</div>
+    						<div class="form-group col-sm-6">
+    							<label for="inputEst">Escolha seu Estado:</label>
+    							<select id="inputEst" class="form-control">
+    								<option selected>ES</option>
+    								<option>MG</option>
+    								<option>RJ</option>
+    								<option>SP</option>
+    							</select>
+    						</div>
+    					</div>
+    					<div class="form-row">
+    						<div class="form-group col-sm-6">
+    							<label for="inputCep">Digite seu Cep:</label>
+    							<input type="text" class="form-control" id="inputCep" placeholder="Cep"/>
+    						</div>
+    					</div>
+    					<div class="form-row">
+    						<div class="form-group col-sm-12">
+    							<div class="form-check">
+    								<label for="form-check-label">
+    									<input class="form-check-input" type="checkbox">Deseja receber atualizacoes por EMail.
+    								</label>
+    							</div>
+    						</div>
+    					</div>
+    					<div class="form-row">
+    						<div class="col-sm-12">
+    							<button type="button" class="btn btn-primary btn-lg">Enviar</button>
+    							<!-- Mensagem de ajuda ao usuario popover --->
+    							<a tabindex="0" class="btn btn-outline-secondary btn-lg ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Ajuda ao formulario" data-content="Preencha os campos colocando o ponteiro do mouse em cima do componente e click com o botao direito do mouse, entraremos em contato em breve.">Ajuda</a>     							 
+    						</div>
+    					</div>
+    				</form>
+    			</div>
+    		</div>
+    		<!-- rodape --->
+    		<div class="row mt-1">
+    			<div class="col-sm-12"><hr></div>
+    			<div class="col-sm-4 col-lg-2">
+    				<h3>Biomas Brasileiros</h3>
+    				<p>
+    				<small class="text-muted">Valorise a natureza do Brasil</small>
+    				</p>
+    				<p>A naturesa e uma das coisas mais belas existente no planeta chamado Terra.</p>
+    			</div>
+    			<!-- lista em grupo --->
+    			<div class="col-sm-4  col-lg-2 text-center">
+    				<h3>Menu</h3>
+    				<a href="3" class="list-group-item list-group-item-active list-group-item-primary">Perfil</a>
+    				<a href="3" class="list-group-item list-group-item-active list-group-item-primary">Servicos</a>
+    				<a href="3" class="list-group-item list-group-item-active list-group-item-primary">Depoimentos</a>
+    				<a href="3" class="list-group-item list-group-item-active list-group-item-primary">Contato</a>
+    			</div>
+    			<!-- lista em botao --->
+    			<div class="col-sm-4 col-lg-2 text-center">
+    				<h3>Social</h3>
+    				<div class="btn btn-group-vertical btn-block" role="group">
+    					<a class="btn btn-outline-primary" href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+    					<a class="btn btn-outline-danger" href="#"><i class="fab fa-instagram"></i> Instargram</a>
+    					<a class="btn btn-outline-warning" href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+    				</div>
+    			</div>
+    			<div class="col-12"><hr></div>
+    			<div class="col-12">
+    				<blockquote class="blockquote text-center">
+    					<p class="mb-0">O sucesso nao e garantido, mas o fracasso e certo se voce nao estiver emocionalmente
+						envolvido em seu trabalho.</p>
+   						<footer class="blockquote-footer">Biz Stone <cite title="Co-fundador do twitter ml-2">Co-fundador do twitter</cite></footer>
+    				</blockquote>
+    			</div>
+    		</div>
+    	</div>
+   
+
+    
+    <!-- Modal 1 --->
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+       <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Mata Atlântica</h5>
+                 <button type="button" class="close" data-dismiss="modal">
+                     <span>&times;</span>
+                 </button>                                   
+              </div>
+              <div class="modal-body">
+                  <div class="container-fluid">
+                      <div class="row">                          
+                          <div class="col-6">
+                              <h5 class="modal-title">Floresta tropical</h5>
+                              <img class="img-fluid" src="_imagem/card-1.png">
+                          </div>
+                          <div class="col-6">
+                              <p>Um bioma de floresta tropical que abrange a costa leste, sudeste e sul do Brasil leste do Paraguai e a província de Misiones, na Argentina.</p>
+                              <p>Seus processos ecológicos evoluíram a partir do Eoceno, quando os continentes já estavam relativamente dispostos como estão hoje. A região é ocupada por seres humanos há mais de 10 000 anos. A partir da colonização europeia, e principalmente, no século XX, a Mata Atlântica passou por intenso desmatamento, restando menos de 20% da cobertura vegetal original.</p>
+                          </div>
+                      </div>
+                  </div>                   
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+              </div>  
+            </div>
+        </div>        
+    </div>
+    <!-- modal 2--->
+    <div class="modal fade" id="siteModalEmas" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cachoeira de Emas</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                       <div class="row">
+                            <div class="col-6">
+                                <h5 class="modal-title">Cachoeira de Emas com peixes e o rio</h5>
+                                <img class="img-fluid" src="_imagem/card-2.png">
+                            </div>
+                            <div class="col-6">
+                                <p>O início das pesquisas com peixes e o rio, em Cachoeira de Emas, deveu-se, inicialmente, ao biólogo e zoologista Rodolpho von Ihering, responsável pela instalação de uma Estação Experimental de Biologia e Pisicultura no Distrito, nos anos 30, bem como ao trabalho e à persistência do Professor Doutor Manuel Pereira de Godoy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+     <!-- modal 3 --->
+    <div class="modal fade" id="siteModalPor" tabindex="-1" role="dialog">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Pôr do sol</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="modal-title">O momento em que o Sol se oculta no horizonte</h5>
+                                <img class="img-fluid" src="_imagem/card-3.png">
+                            </div>
+                            <div class="col-6">
+                                <P>E o momento em que o Sol se oculta no horizonte na direção oeste, sendo o início da noite. Pode ser considerado como um processo inverso do nascer do Sol, que é quando o sol aparece no horizonte na direção leste, iniciando o dia. Este acontecimento verifica-se todos os dias em todas as regiões compreendidas entre o Círculo Polar Ártico e o Círculo Polar Antártico.</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    
+    <!-- Acionando o popoveer do formulario --->
+    <script>
+		$(function () {
+  			$('[data-toggle="popover"]').popover()
+		})
+	</script>
+
+</body>
+
+</html>
